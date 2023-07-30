@@ -16,5 +16,5 @@ Sample Output
 20 21
 22 23
 
-Problem link:
+Link:
 https://www.hackerrank.com/challenges/symmetric-pairs/problem?isFullScreen=false
