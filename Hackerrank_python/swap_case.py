@@ -1,16 +1,8 @@
 def swap_case(s):
     s_list = [*s]
-    for i in range(0, len(s_list)):
-        # If character is uppercase.
-        if s_list[i] == s_list[i].upper():
-            s_list[i] = s_list[i].lower()
-        # Check if character is lowercase.
-        elif s_list[i] == s_list[i].lower():
-            s_list[i] = s_list[i].upper()
-        else:
-            pass
+    s_out = [x.upper() if x == x.lower() else x.lower() for x in s_list]
         
-    return "".join(s_list)
+    return "".join(s_out)
 
 if __name__ == '__main__':
     s = input()
